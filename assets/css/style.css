@@ -1,0 +1,74 @@
+@import url(./reset.css);
+
+.active {
+    background-color: #8F8F8F;
+    color: white;
+    border: 1px solid #CFCFCF;
+    transition: ease-in all 0.4s;
+}
+
+.main_container {
+    text-align: center;
+    margin-top: 22px;
+
+    .inputButtonMain {
+        display: flex;
+        justify-content: center;
+
+        .inputButton {
+            margin-bottom: 22px;
+            width: 390px;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+
+            input {
+                width: 100%;
+                border: 1px solid #E1E1E1;
+                padding: 10px;
+            }
+
+            button {
+                width: 40px;
+                height: 40px;
+                background-color: #13E328;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        button {
+            width: 124px;
+            height: 30px;
+            border-radius: 6px 6px 6px 6px;
+            border: 1px solid #ECECEC;
+            transition: ease-in all 0.4s;
+            cursor: pointer;
+        }
+    }
+
+    .addHere {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+        margin-top: 15px;
+        gap: 20px;
+    }
+}
+
+.addHere {
+    width: 390px !important;
+    height: 40px !important;
+    margin: 0 auto;
+}
